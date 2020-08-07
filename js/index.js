@@ -20,6 +20,12 @@ $(document).ready(function(e) {
 		});
 	});
 
+	//Open Contact Info
+	// $(document).on("click", "#c-click", function () {
+	// 	let contact = $(this).attr('data-item');
+	// 	$("#lineitem").attr("href","/orders/line-item-delete/"+itemid)
+	//  });
+
 	//Add Contact
 	$(document).on('submit', '#addContact', function() {
 		console.log('HELLO');
