@@ -32,3 +32,8 @@ a:hover {
 	width: 100px;
 	margin: 50px auto 50px auto;
 }
+
+#pageContent a {
+	display: block;
+	padding: 10px;
+}
